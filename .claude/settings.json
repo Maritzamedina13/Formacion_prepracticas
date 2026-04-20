@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(grep -oP 'integrity=\\\\\"[^\"]{0,100}\\\\\"' /home/mmedinag/Formacion_prepracticas/index.html)"
     ]
   }
 }
